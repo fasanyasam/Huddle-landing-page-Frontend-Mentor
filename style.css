@@ -88,18 +88,17 @@ button{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    section{
+        display: block;
+        width: 96%;
+        margin: auto;
+        text-align: center;
+    }
     .image img{
         width: 300px;
         margin: auto;
-        padding: 30px;
+       padding: 0;
         
-    }
-
-    section{
-        display: block;
-        width: 100%;
-        margin: auto;
-        text-align: center;
     }
     h1{
         font-family: 'Open Sans', sans-serif;
@@ -109,7 +108,7 @@ button{
     p{
         font-family: 'Poppins', sans-serif;
         font-size: 83%;
-        width: 95%;
+        width: 99%;
     }
     button{
         padding: 10px 50px;
@@ -134,5 +133,9 @@ button{
         border-radius: 50%;
     }
 
-
+    .attribution { 
+        width: 50%;
+        margin: auto;
+    }
+    
 }
