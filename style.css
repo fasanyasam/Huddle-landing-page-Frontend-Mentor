@@ -1,0 +1,138 @@
+html, body{
+    width: 1400px;
+    color: white;
+    line-height: 2;
+    margin: 0;
+    padding:0;
+}
+
+main{
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);    
+    background-repeat: no-repeat ;
+    background-size: contain;
+    /* background-position: top; */
+}
+.logo{
+    padding: 40px 0px
+}
+nav{
+    width: 90%;
+    margin: auto;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: auto;
+    padding-top:40px;
+}
+.text{
+    padding: 50px;
+    width: 80%;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size:200%;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 88%;
+    width: 100%;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    color:hsl(257, 40%, 49%);
+    background-color: white;
+}
+.icons{
+    text-align: right;
+    margin-top: 200px;
+}
+
+.fab{
+    height: 20px;
+    width: 20px;
+    padding: 6px;
+    text-align: center;
+    margin: 5px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: white;
+}
+
+@media screen and (max-width: 375px){
+    html,body{
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        width: 40%;
+        padding-top: 20px;
+    }
+    main{
+        background-image: url(images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .image img{
+        width: 300px;
+        margin: auto;
+        padding: 30px;
+        
+    }
+
+    section{
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size:160%;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 83%;
+        width: 95%;
+    }
+    button{
+        padding: 10px 50px;
+        border: none;
+        border-radius: 25px;
+        color:hsl(257, 40%, 49%);
+        background-color: white;
+    }
+
+    .icons{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .fab{
+        height: 20px;
+        width: 20px;
+        padding: 6px;
+        text-align: center;
+        margin: 5px;
+        border: solid 2px white;
+        border-radius: 50%;
+    }
+
+
+}
